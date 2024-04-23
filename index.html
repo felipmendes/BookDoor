@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+   integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./styles/output.css" />
+
+  <title>Book Door</title>
+</head>
+<body>
+  <!--HEADER-->
+  <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex  flex-col justify-center items-center">
+      <img
+      src="./assets/logo.jpg"
+      alt="logo BookDoor"
+      class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+      />
+      <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Book Door</h1>
+      <span class="text-white font-bold">eBooks</span>
+
+    </div>
+  </header>
+  <!--FIM HEADER-->
+
+ <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+  Livros disponíveis
+ </h2>
+
+ <!--INÍCIO MENU-->
+ <DIV id="menu">
+
+  <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+    <!--inicio produto item-->
+    <div class="flex gap-2">
+      <img
+     src="./assets/book1.jpg"
+     alt="Harry Potter e a Pedra Filosofal"
+     class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+     />
+
+       <div>
+        <p class="font-bold ">Harry Potter e a Pedra Filosofal</p>
+        <p class="text-sm mt-2">Harry, órfão criado pelos tios Dursley,
+         recebe cartas misteriosas e descobre no seu aniversário de
+         11 anos que é um bruxo famoso. Rubeus Hagrid 
+         o leva ao mundo mágico e o matricula em Hogwarts, 
+         Escola de Bruxaria e Feitiçaria.</p>
+
+         <div class="flex items-center gap-2 justify-between mt-2">
+         <p class="font-bold text-lg">R$23,99</p>
+         <button 
+          class="bg-gray-900 px-5 rounded add-to-cart-btn"
+          data-name="Harry Potter e a Pedra Filosofal"
+          data-price="23,99"
+          >
+          <i class="fa fa-cart-plus tex-lg text-white"></i>
+         </button>
+        </div>
+
+       </div>
+
+    </div>
+   <!--fim produto item-->
+
+   <!--inicio produto item-->
+    <div class="flex gap-2">
+      <img
+     src="./assets/book2.jpg"
+     alt="Harry Potter e a Pedra Filosofal"
+     class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+     />
+
+       <div>
+        <p class="font-bold ">Harry Potter e o Cálice de Fogo</p>
+        <p class="text-sm ">No quarto livro da série Harry Potter,
+             Harry é inesperadamente escolhido como participante do Torneio Tribruxo,
+             uma competição perigosa entre três escolas de magia. Enfrentando dragões,
+             sereianos e um labirinto mortal, Harry deve usar sua inteligência,
+              coragem e magia para sobreviver e desvendar o mistério por trás de sua seleção.</p>
+
+        <div class="flex items-center gap-2 justify-between mt-2">
+         <p class="font-bold text-lg">R$23,99</p>
+         <button 
+          class="bg-gray-900 px-5 rounded add-to-cart-btn"
+          data-name="Harry Potter e o Cálice de Fogo"
+          data-price="23,99"
+          >
+          <i class="fa fa-cart-plus tex-lg text-white"></i>
+         </button>
+        </div>
+
+       </div>
+
+    </div>
+        <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book3.jpg"
+      alt="Harry Potter e a Câmara Secreta"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Harry Potter e a Câmara Secreta</p>
+          <p class="text-sm ">
+            No segundo ano de Hogwarts, Harry enfrenta um novo mistério:
+            a Câmara Secreta foi aberta, liberando um monstro que petrefica
+              alunos nascidos trouxas. Com a ajuda de Rony e Hermione, Harry 
+              investiga a identidade do herdeiro de Sonserina que abriu a Câmara
+              e busca deter o monstro antes que a escola seja fechada para sempre.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Harry Potter e a Câmara Secreta"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book4.jpg"
+      alt="Harry Potter e a Pedra Filosofal"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Harry Potter e a Pedra Filosofal</p>
+          <p class="text-sm ">O órfão Harry Potter, vivendo com os tios
+              cruéis Dursleys, recebe cartas misteriosas e, aos 11 anos,
+              descobre ser um bruxo famoso. Guiado por Hagrid, ele ingressa em Hogwarts,
+              Escola de Bruxaria e Feitiçaria, onde faz amigos e enfrenta desafios para
+              proteger a Pedra Filosofal, um artefato mágico cobiçado pelo bruxo das trevas
+              Lord Voldemort, responsável pela morte de seus pais.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Harry Potter e a Pedra Filosofal"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book5.jpg"
+      alt="Harry Potter e a Príncipe Misterioso"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Harry Potter e o Príncipe Misterioso</p>
+          <p class="text-sm ">Em Harry Potter e o Enigma do Príncipe, 
+            Harry volta para Hogwarts para seu sexto ano, marcado por 
+            eventos turbulentos e segredos obscuros. Com a ajuda de um misterioso 
+            livro de poções anotado por um antigo aluno, Harry busca desvendar os planos 
+            de Lord Voldemort e se preparar para a batalha final que se aproxima.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Harry Potter e o Príncipe Misterioso"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book6.jpg"
+      alt="Duna: Volume 1"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Duna: Volume 1</p>
+          <p class="text-sm ">Na graphic novel Duna: Volume 1, acompanhamos 
+            a jornada de Paul Atreides e sua família enquanto assumem o controle 
+            do planeta Arrakis, conhecido como Duna, um lugar árido e rico em especiaria 
+            melange, a substância mais valiosa do universo.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Duna: Volume 1"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book7.jpg"
+      alt="Duna"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Duna</p>
+          <p class="text-sm ">Em Duna, de Frank Herbert, Paul Atreides, 
+            herdeiro da Casa Atreides, muda-se para o planeta Arrakis, 
+            único produtor da especiaria melange, substância vital para viagens 
+            interestelares e poderes mentais. Em meio a intrigas políticas e perigos 
+            no deserto, Paul se alia aos Fremen, povo nativo de Arrakis, e abraça seu 
+            destino como messias profetizado, liderando uma rebelião contra o império e forjando seu próprio caminho.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Duna"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book8.jpg"
+      alt="Star Wars: Mestre e Aprendiz"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Star Wars: Mestre e Aprendiz</p>
+          <p class="text-sm ">Em Star Wars: Mestre e Aprendiz, Qui-Gon Jinn e 
+            Obi-Wan Kenobi, mestre e aprendiz Jedi, embarcam em uma missão perigosa 
+            para negociar a paz com o planeta Malastare, assolado por conflitos. No entanto, 
+            eles se deparam com um plano maligno do Lorde Sith Darth Maul, que os coloca em uma luta 
+            épica pela sobrevivência e pelo destino da República Galáctica.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Star Wars: Mestre e Aprendiz"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book9.jpg"
+      alt="Crooked Kingdom: Vingança e Redenção"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">Crooked Kingdom: Vingança e Redenção</p>
+          <p class="text-sm ">
+            Em "Crooked Kingdom: Vingança e Redenção", o terceiro livro da série 
+            "The Grishaverse" de Leigh Bardugo, Alina Starkov, agora ex-Rainha de Ravka, 
+            busca a redenção por seus erros enquanto tenta evitar uma guerra civil. Ela se 
+            junta a um grupo de ladrões, os Crows, liderados por Kaz Brekker, para realizar 
+            um assalto crucial em Fjerda, buscando recuperar um objeto mágico que pode salvar Ravka.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Crooked Kingdom: Vingança e Redenção"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+      <!--inicio produto item-->
+      <div class="flex gap-2">
+        <img
+      src="./assets/book10.jpg"
+      alt="A Primeira Regra dos Feiticeiros"
+      class="w-28 h-29 rouded-md hover:scale-125 hover:-rotate-1 duration-300"
+      />
+
+        <div>
+          <p class="font-bold ">A Primeira Regra dos Feiticeiros</p>
+          <p class="text-sm ">Nathaniel Garret, um jovem órfão com habilidades mágicas, 
+            é enviado para a Academia de Magia de Londres, onde treina para se tornar um feiticeiro. 
+            Lá, ele enfrenta desafios e perigos, enquanto aprende a controlar seus poderes e desvenda os 
+            mistérios que cercam seu passado e a Academia.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-2">
+          <p class="font-bold text-lg">R$23,99</p>
+          <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="A Primeira Regra dos Feiticeiros"
+            data-price="23,99"
+            >
+            <i class="fa fa-cart-plus tex-lg text-white"></i>
+          </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--fim produto item-->
+
+        </main>
+
+      </DIV>
+      <!--FIM MENU-->
+
+      <!--modal-->
+        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+         id="cart-modal">
+
+          <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Total: <span id="cart-total">0,00</span></p>
+
+              <p class="font-bold mt-4">Endereço de E-mail</p>
+                <input 
+                 type="text"
+                  placeholder="E-mail completp para o envio dos e-Books..."
+                  id="addres"
+                  class="w-full border-2 p-1 rounded my-1"
+                />
+               <p class="text-red-500 indeterminate:address- hidden ">Digite seu E-mail completo</p>
+
+              <div class="flex items-center justify-between mt-5 w-full">
+               <button id="close-modal-btn">Fechar</button>
+               <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button> 
+              </div>
+
+          </div>
+
+        </div>
+      <!--fim modal-->
+
+      <!--BUTTON CART FOOTER-->
+      
+      <footer class="w-full bg-blue-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+         <BUTTon class="flex items-center gap-2 text-black font-bold"
+         id="cart-btn" 
+         >
+          (<span id="cart-count">0</span>)
+          Veja meu carrinho
+          <i class="fa fa-cart-plus text-lg text-black"></i>
+         </BUTTon>
+      </footer>
+      
+      <!-- FIM BUTTON CART FOOTER--> 
+
+        <script src="script.js"></script>
+
+</body>
+</html>
